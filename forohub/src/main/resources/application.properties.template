@@ -1,0 +1,9 @@
+spring.application.name=forohub
+
+spring.datasource.url=jdbc:mysql://DB_HOST/DB_name
+spring.datasource.username=DB_usr
+spring.datasource.password=DB_psw
+
+server.error.include-stacktrace=never
+
+api.security.secret=${JWT_SECRET:123456}
